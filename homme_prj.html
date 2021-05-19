@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		
+		<link rel="shortcut icon" type="image/x-icon" href="./pic_prj/logo2.png" />
+        <title>PalaisHéijo-hp-</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css_prj/home_prj.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(function() {
+                $("#header").load("header_prj.html");
+                $("#footer").load("footer_prj.html");
+            });
+           
+        </script>
+    </head>
+    <body>
+        <div id="header"></div>
+		<div class="homepg">
+			<img src="../pic_prj/pic_resto1.jpg" alt="">
+			<div class="btn-hp">
+					<a href="Gallery.html"><button> <span></span> <span></span> <span></span> <span></span> check our Gallery</button></a>
+			 </div>
+		</div>
+		
+        <main>
+            <div id="about" style="height: 120px;"></div>
+			<section id="about" class="breakpoint">
+				<div class="content">
+					<h1 class="topic"> ABOUT US </h1>
+					<p> Palais<span>Héijo</span>  is a Japanese traditional sushi restaurant in Rabat.
+						Through continuous improvement and evolution, Palais<span>Héijo</span> aims to
+						offer delicious and creative cuisine that is fresh, healthy, made
+						with care, and integrity of ingredients. Our restaurant is in the
+						center of Rabat and aims to give the better services for the
+						clients.</p>
+					
+				</div>
+				<div class="img_container">
+					<img src="./pic_prj/logo2.png" alt="logo" />
+				</div>
+			</section>
+			
+			<section class="divider"> 
+			</section>
+			
+			<div id="menu" style="height: 120px;"></div>
+			<section id="menu" class="breakpoint"> 
+				<div class="img_container">
+					<img class="align_end" src="./image/chirashi-salsa.png" title="Fresh salad" alt="Fresh salad image" > 
+					<img class="align_end" src="./image/poke-bowl.png" title="Fresh fancy salad" alt="Fresh fancy salad image">
+					<img class="align_start" src="./image/sashimi-bowl.png" title="Mushroom dish with legumes" alt="Mushroom dish with legumes image" >
+					<img class="align_start" src="./image/tempura-bowl.png" title="Dessert with lemon" alt="Dessert with lemon image">
+				</div>
+				<div class="content">
+					<h1 class="topic"> our menu </h1>
+					<p> In consectetur sit amet lectus vitae blandit. Aenean eget augue eleifend, ultricies neque consequat, tincidunt elit. In hac habitasse platea dictumst. Phasellus interdum libero ut libero hendrerit. </p>
+					<h2><a href="Menu_prj.html"> Check our menu </a></h2>
+				</div>
+			</section>
+			
+			<section class="divider">			
+			</section>
+
+			<div id="reservation" style="height: 20px;"></div>
+			<section id="reservation" class="breakpoint" style="height: 70vh;"> 
+				<div class="content">
+					<div class="container">
+						<div class="container-time">
+						<h2 class="heading">Time Open</h2>
+						<h3 class="heading-days">Monday-Friday</h3>
+						<p>7am - 11am (breakfast)</p>
+						<p>11am - 10pm (lunch/dinner)</p>
+						
+						<h3 class="heading-days">Saturday and sunday</h3>
+						<p>9am - 1am (breakfast)</p>
+						<p style="margin-bottom: 10px;">1am - 10pm (lunch/dinner)</p>
+						
+						<hr>
+						
+						<h4 class="heading-phone">Call Us: (123) 45-45-456</h4>
+						</div>
+						
+						<div class="container-form">
+						<form action="#">
+						<h2 class="heading heading-yellow">Reservation Online</h2>
+						
+						<div class="form-field">
+						<p>Your Name</p>
+						<input type="text" placeholder="Your Name">
+						</div>
+						<div class="form-field">
+						<p>Your email</p>
+						<input type="email" placeholder="Your email">
+						</div>
+						<div class="form-field">
+						<p>Date</p>
+						<input type="date">
+						</div>
+						<div class="form-field">
+						<p>Time</p>
+						<input type="time">
+						</div>
+						<div class="form-field">
+						<p>How many people?</p>
+						<select name="select" id="#">
+						<option value="1">1 person</option>
+						<option value="2">2 persons</option>
+						<option value="3">3 persosn</option>
+						<option value="4">4 persons</option>
+						<option value="5">5 persons</option>
+						<option value="5+">5+ persons</option>
+						</select>
+						</div>
+						
+						<button class="btn">Submit</button>
+						</form>
+						</div>
+						</div>
+				</div>			
+			</section>
+
+			<section id="maps" class="breakpoint"> 
+				<div class="map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6617.859830976068!2d-6.892047126099942!3d33.96864082042766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda76d2f98c0576d%3A0xa854b9d82563a76!2sINSTITUT%20DE%20TECHNOLOGIE%20APPLIQUEE%20YACOUB%20EL%20MANSOUR%20RABAT!5e0!3m2!1sfr!2sma!4v1621432687366!5m2!1sfr!2sma" width="1800" height="380" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			</div>
+			</section>
+						
+		</main>
+		<!-- Modal button -->
+		<div class="popup-icon">
+			<button id="modBtn" class="modal-btn"><img src="image/icon contact6.png" alt=""></button>
+		  </div>  
+	  
+		  <!-- Modal -->
+		  <div id="modal" class="modal">
+			<!-- Modal Content -->
+			<div class="modal-content">
+			  <!-- Modal Header -->
+			  <div class="modal-header">
+				<h3 class="header-title">Say hello to Palais<span>Héijo</span></h3>
+				<div class="close-btn"><img src="image/close_contact.png" alt=""></div>    
+			  </div>
+			  <!-- Modal Body -->
+			  <div class="modal-body">
+				<div class="col-md-6 col-md-offset-3">
+				  <form id="contact" action="" method="post">
+					  <div class="row">
+						  <div class="col-md-12">
+							  <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required="">
+						  </div>
+						  <div class="col-md-12">
+							  <input name="email" type="email" class="form-control" id="email" placeholder="Your email..." required="">
+						  </div>
+						  <div class="col-md-12">
+							  <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
+						  </div>
+						  <div class="col-md-12">
+							  <button type="submit" id="form-submit" class="btn">Send Message Now</button>
+						  </div>
+					  </div>
+				  </form>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		  
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+		  <script src="js_prj/contact_js.js"></script>
+		  <div id="footer"></div>
+    </body>
+</html>
